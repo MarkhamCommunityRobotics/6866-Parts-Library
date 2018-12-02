@@ -1,0 +1,129 @@
+COTS Gear library by Andrew Lawrence
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+File naming style for 20DP and 32DP gears:
+
+ToothCount.Bore.ManufacturerPart#
+
+Examples:
+
+28.hex375.AM0025
+48.DOG.AM0022
+12.CIM.VP217-3099
+54.Bearing.VP217-3339
+-------------------------------------------------
+-------------------------------------------------
+File naming style for "Special" gears:
+
+ToothCount.Type.BoreSize.Pitch.ManufacturerPart#
+
+Examples:
+
+15.Bevel.hex375.12.VP217-3344
+17.pinion.round196.40.AM2487
+-----------------------------------------------------
+-----------------------------------------------------
+Key:
+
+-CIM: An 8mm circular bore with a 2mm keyway meant
+to fit on the shaft of a CIM or Mini CIM motor.
+
+-Round: A circular bore, sometimes with a keyway.
+
+-Hex: A hex bore meant to be driven by a live axle.
+
+-DOG: A gear with a DOG pattern machined into a
+face meant to interlock with a shifting DOG gear.
+
+-Ballshift: A gear with a Ballshifter pattern
+machined into the bore of the gear meant to
+interlock with ball bearings in a ball shifter shaft.
+
+-Bearing: A VEXPro bearing bore gear with a circular
+1.125" bore meant for a bearing to be pressed in.
+
+-Square: A square bore that goes through the AM0533.
+
+-Worm: A spiral gear that runs perpendicularly to
+the gear it drives.
+
+-Pinion: A small gear meant to be pressed onto a 
+motor.
+
+-Bevel: An angled gear meant to interlock with its
+connecting gear at an angle of 90 degrees.
+
+-Sun: The center gear of a planetary gear system.
+
+-WormGear: A gear that is driven by a Worm.
+
+-RingGear: An internally toothed gear used in as
+the outside of a planetary gear system.
+
+-VP: Denotes a VEXPro/WCP gear.
+
+-AM: Denotes an AndyMark gear.
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTE: Some of the gears had do be made myself,
+since their webpage did not provide sufficient
+information or a CAD model. I did my best with
+the little information I had, so if you find an
+error, please excuse it, and contact me (either
+through CD or my email) with a description of
+the inaccuracy and a suggestion on how to fix it.
+
+CD Username: Andrew Lawrence
+Email: alawre1@gmail.com
+-----------------------------------------------------
+-----------------------------------------------------
+Materials:
+For some reason, some of the Solidworks models are
+not retaining their assigned materials. If this is
+the case, feel free to assign them yourself with the
+materials listed below. I apologize for this
+inconvenience.
+
+-VEXPro/WCP Gears are 7075 T6 Aluminum.
+-VEXPro/WCP Pinions are generally 4041* steel.
+-AndyMark Steel gears are 4041* steel.
+-AndyMark Aluminum gears are 6061 T6 Aluminum.
+
+*If your CAD program does not have 4041 steel
+as a usable material, 4043 is similar in 
+properties and works as a good substitute.
+-----------------------------------------------------
+-----------------------------------------------------
+Colors:
+
+In the event you need the RGB value of the VEXPro/
+WCP gears, the value can be found here:
+
+R 255
+G 255
+B 192
+
+VEXPro pinions are generally a dark, matte black,
+so RGB values of 0,0,0 work, although if you want
+an easier to see color, I would suggest modeling
+with RGB values of 64,64,64 for a nice dark grey.
+
+Most AndyMark gears do not have added color, however
+some gears are made with a black coating. This black
+is the same as the pinions above, and both RGB
+values of 0,0,0 and 64,64,64 will work well.
+-----------------------------------------------------
+-----------------------------------------------------
+
+Thank you very much for using my gear library, and I
+hope you find it useful. I plan on updating it if
+a large group of new gears comes out from any of the
+major FRC manufacturers, so if that happens, give me
+a few days to make all the gears and organize 
+everything. As always, feedback is greatly
+appreciated, and questions/comments/concerns can be
+sent to the contact information written above or
+posted to the Chief Delphi thread which I will be
+making in the next few minutes.
